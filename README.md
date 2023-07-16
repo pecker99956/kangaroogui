@@ -1,6 +1,11 @@
 # kangaroo
 Find PrivateKey of corresponding Pubkey(s) using Pollard Kangaroo algo 
 
+# Usage for GUI
+- python kangui.py
+- 
+![image](https://github.com/Mizogg/kangaroo/assets/88630056/4cee328d-ea9e-442a-8ac9-089335c845c2)
+
 # Usage
 - python kangaroo.py
 ```
