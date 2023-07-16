@@ -8,6 +8,9 @@ Find PrivateKey of corresponding Pubkey(s) using Pollard Kangaroo algo
 
 # Usage
 - python kangaroo.py
+
+- Public key for puzzle 160 = 02e0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673
+- Range for puzzle 160  = 8000000000000000000000000000000000000000:ffffffffffffffffffffffffffffffffffffffff
 ```
 (base) C:\anaconda3>python kangaroo.py
 [+] Starting CPU Kangaroo.... Please Wait
