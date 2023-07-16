@@ -126,7 +126,7 @@ class MainWindow(QMainWindow):
         prefixLayout = QHBoxLayout(self.prefixGroupBox)
         self.prefixLabel = QLabel("Public Key to search:", self)
         prefixLayout.addWidget(self.prefixLabel)
-        self.prefixLineEdit = QLineEdit("02ceb6cbbcdbdf5ef7150682150f4ce2c6f4807b349827dcdbdd1f2efa885a2630", self)
+        self.prefixLineEdit = QLineEdit("02e0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673", self)
         prefixLayout.addWidget(self.prefixLineEdit)
 
         self.layout.addWidget(self.prefixGroupBox)
@@ -137,8 +137,8 @@ class MainWindow(QMainWindow):
         keyspaceLayout = QHBoxLayout(self.keyspaceGroupBox)
         self.keyspaceLabel = QLabel("Key Space:", self)
         keyspaceLayout.addWidget(self.keyspaceLabel)
-        self.keyspaceLineEdit = QLineEdit("800000000000000000000000000000:F00000000000000000000000000000", self)
-        self.keyspaceLineEdit.setPlaceholderText('Example range for 66 = 20000000000000000:3ffffffffffffffff')
+        self.keyspaceLineEdit = QLineEdit("8000000000000000000000000000000000000000:ffffffffffffffffffffffffffffffffffffffff", self)
+        self.keyspaceLineEdit.setPlaceholderText('Example range for 160 = 8000000000000000000000000000000000000000:ffffffffffffffffffffffffffffffffffffffff')
         keyspaceLayout.addWidget(self.keyspaceLineEdit)
 
         self.layout.addWidget(self.keyspaceGroupBox)
