@@ -1,9 +1,17 @@
 # kangaroo
 Find PrivateKey of corresponding Pubkey(s) using Pollard Kangaroo algo 
 
+# New
+
+![image](https://github.com/Mizogg/kangaroo/assets/88630056/40ece355-31d0-4980-92ad-52e7e8cdc2af)
+
+# Multiple Screens
+
+![image](https://github.com/Mizogg/kangaroo/assets/88630056/b5069d99-e8cd-4a20-b246-42e6ee243adf)
+
 # Usage for GUI
-- python kangui.py
-- 
+-New Version -  python main.py
+- Old version -  python kangui.py
 ![image](https://github.com/Mizogg/kangaroo/assets/88630056/4cee328d-ea9e-442a-8ac9-089335c845c2)
 
 # Usage
